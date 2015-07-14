@@ -1,4 +1,4 @@
-" vim: filetype=help foldmethod=marker foldmarker=<<<,>>> modifiable noreadonly
+" vim: filetype=help foldmethod=marker
 *cheatsheet.txt*	For Vim version 7.4	Last change: 2014 October 8
 *cheatsheet*
 
@@ -16,22 +16,10 @@ CONTENTS
 ===============================================================================
 1. Normal Mode                                         *cheatsheet-normal*
 
-   - :wall : Save modified buffers
-   - :x : Save buffer only if modified, then exit (better than :wq)
-   - ]] : next section
-   - ]m : next method
-   - [m : back to the start of the method
-   - ) : Next sentence
-   - CTRL-D : Down half a page
-   - CTRL-U : Up half a page
-   - ~ Uppercase a letter (works on ranges)
-   - z commands:
-      - z : Current line at the top
-      - z. : current line at the center
-      - z- : current line at the bottom
-
-   - /<C-R><C-W>: Pull word into command line (or search)
-   - :reg : list registers (and show what’s in them)
+  - Tags {{{
+    t : next tag
+    T : previous tag
+    }}}
 
 ===============================================================================
 2. Visual Mode                                         *cheatsheet-visual*
