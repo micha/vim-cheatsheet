@@ -16,41 +16,22 @@ CONTENTS
 ===============================================================================
 1. Normal Mode                                         *cheatsheet-normal*
 
-  - Tags {{{
-    t : next tag
-    T : previous tag
-    }}}
+   Help Tags
+   ---------
+   - t : next tag
+   - T : previous tag
 
 ===============================================================================
 2. Visual Mode                                         *cheatsheet-visual*
 
-   - SHIFT-[LEFT/RIGHT] : Shift one word left or right
-   - J : Join the highlighted lines, removing unnecessary whitespace.
-   - va' : select a single-quoted string (also works with " and `)
-   - vi' : select the contents of a single-quoted string
-   - vab : select a "block" (works differently in different langs)
-   - vat : select a <tag> and its contents (use i instead of a for just
-     contents)
 
 ===============================================================================
 3. Insert Mode                                         *cheatsheet-insert*
-
-   - <C-N>: Complete word
-   - <C-N><C-P>: Complete word (?)
-   - <C-X><C-L>: Complete line (!!)
-   - \cc: <Leader>cc Comment out all selected rows with a single-line comment
-     (//) — part of NERDCommenter
-   - \\w: Navigate to a word with EasyMotion’s help (works with any navigation
-     commands)
 
 
 ===============================================================================
 4. NOTES                                               *cheatsheet-notes*
 
-Janus: https://github.com/carlhuda/janus
-
-Why disable supertab? Because it's really annoying when you're writing in a
-language that uses tabs instead of spaces.
 
 ===============================================================================
 5. Rebuilding this file.
