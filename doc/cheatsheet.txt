@@ -16,10 +16,10 @@ CONTENTS
 ===============================================================================
 1. Normal Mode                                         *cheatsheet-normal*
 
-   Help Tags
-   ---------
-   - t : next tag
-   - T : previous tag
+Help Tags
+---------
+t		next tag
+T		previous tag
 
 ===============================================================================
 2. Visual Mode                                         *cheatsheet-visual*
