@@ -1,3 +1,4 @@
+" vim: filetype=help foldmethod=marker foldmarker=<<<,>>> modifiable noreadonly
 *cheatsheet.txt*	For Vim version 7.4	Last change: 2014 October 8
 *cheatsheet*
 
